@@ -15,7 +15,7 @@ func partOne() {
 		fmt.Println(err)
 	}
 
-	re := regexp.MustCompile(`mul\(([0-9]+),\s*([0-9]+)\)`)
+	re := regexp.MustCompile(`mul\((\d+),(\d+)\)`)
 
 	var product int
 
